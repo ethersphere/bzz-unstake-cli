@@ -1,0 +1,25 @@
+{
+  "name": "bzz-unstake-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "bzz-unstake-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "prepare": "npm run build",
+    "build": "tsc && chmod +x dist/index.js"
+  },
+  "author": "@w3rkspacelabs",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "ethers": "^6.13.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.6.2",
+    "tsx": "^4.19.1"
+  }
+}
