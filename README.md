@@ -33,7 +33,7 @@ tsx src/index.ts unstake <path-to-swarm-key-file> <password> <gnosis-rpc-url>
 
 #### Unstake with private key
 ```
-tsx src/index.ts unstake <private-key> <gnosis-rpc-url>
+tsx src/index.ts unstake-with-pk <private-key> <gnosis-rpc-url>
 ```
 
 **Output:**
